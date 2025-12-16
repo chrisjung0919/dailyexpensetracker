@@ -1,24 +1,27 @@
 # Python CLI Banking System
 
-A command-line banking system built from scratch in Python without tutorials or external code.
+A command-line banking system built from scratch in Python.  
+This project focuses on clean program structure, modular design using functions, and explicit state management.
 
 ## Features
-- View current balance
-- Deposit money
-- Withdraw money with balance validation
-- Donate money to multiple people
-- Menu-driven interface with clean exit
+- View current account balance
+- Deposit money with input validation
+- Withdraw money with balance checks
+- Donate money to multiple people with total cost validation
+- Menu-driven interface with a clean exit
 
 ## Technologies
 - Python
 
-## Purpose
-This project was created to strengthen core programming fundamentals including:
-- Control flow (loops and conditionals)
-- User input handling
-- State management
-- Logical problem solving
+## Design Highlights
+- Modular functions for each action (deposit, withdraw, donate)
+- Explicit state passing using function arguments and return values
+- Clear control flow through a main menu loop
+- Defensive logic to prevent invalid transactions
 
 ## How to Run
+1. Make sure Python is installed
+2. Run the program from the terminal:
+
 ```bash
 python banking_system.py
